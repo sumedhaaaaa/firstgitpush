@@ -1,0 +1,112 @@
+{
+  "data": [
+    {
+      "Flight_code": "AI-401",
+      "Class": "Business",
+      "Source": "Delhi",
+      "Departure": "8:00 AM",
+      "Arrival": "10:00 PM",
+      "Destination": "Mumbai",
+      "Fare": "35000"
+    },
+    {
+      "Flight_code": "AI-401",
+      "Class": "Business",
+      "Source": "Delhi",
+      "Departure": "8:00 AM",
+      "Arrival": "10:00 PM",
+      "Destination": "Hyderabad",
+      "Fare": "45000"
+    },
+    {
+      "Flight_code": "AI-401",
+      "Class": "Business",
+      "Source": "Delhi",
+      "Departure": "8:00 AM",
+      "Arrival": "11:00 AM",
+      "Destination": "Kolkata",
+      "Fare": "30000"
+    },
+    {
+      "Flight_code": "AI-401",
+      "Class": "Business",
+      "Source": "Delhi",
+      "Departure": "8:00 AM",
+      "Arrival": "10:00 PM",
+      "Destination": "Chennai",
+      "Fare": "33000"
+    },
+    {
+      "Flight_code": "AI-401",
+      "Class": "Economy",
+      "Source": "Delhi",
+      "Departure": "8:00 AM",
+      "Arrival": "10:00 PM",
+      "Destination": "Mumbai",
+      "Fare": "9000"
+    },
+    {
+      "Flight_code": "AI-401",
+      "Class": "Economy",
+      "Source": "Delhi",
+      "Departure": "8:00 AM",
+      "Arrival": "10:00 PM",
+      "Destination": "Hyderabad",
+      "Fare": "9000"
+    },
+    {
+      "Flight_code": "AI-401",
+      "Class": "Economy",
+      "Source": "Delhi",
+      "Departure": "8:00 AM",
+      "Arrival": "11:00 AM",
+      "Destination": "Kolkata",
+      "Fare": "7000"
+    },
+    {
+      "Flight_code": "AI-401",
+      "Class": "Economy",
+      "Source": "Delhi",
+      "Departure": "8:00 AM",
+      "Arrival": "10:00 PM",
+      "Destination": "Chennai",
+      "Fare": "10000"
+    },
+    {
+      "Flight_code": "AI-402",
+      "Class": "Business",
+      "Source": "Kolkata",
+      "Departure": "8:00 AM",
+      "Arrival": "1:00 PM",
+      "Destination": "Delhi",
+      "Fare": "30000"
+    }
+  ],
+  "Users": [
+    {
+      "id": 1,
+      "Mobilenumber": "9867356484",
+      "password": "abcdef"
+    },
+    {
+      "Mobilenumber": "9861059108",
+      "password": "qwerty",
+      "id": 2
+    },
+    {
+      "Mobilenumber": "987654321",
+      "password": "asdfg",
+      "id": 3
+    },
+    {
+      "Mobilenumber": "8249029982",
+      "password": "priti123",
+      "id": 4
+    },
+    {
+      "Mobilenumber": "6290793170",
+      "password": "sume6423",
+      "id": 5
+    }
+  ]
+}

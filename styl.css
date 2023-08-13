@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(235253-airplane-airplane-wing-wing-and-flight-hd.jpg);
+    background-position: centre;
+    background-size: cover;
+  }
+  
+  .ticket {
+    max-width: 400px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ticket h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .ticket-details {
+    padding: 10px;
+  }
+  
+  .flight-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .label {
+    font-weight: bold;
+  }
+  
+  .value {
+    color: #efe7e7;
+    font-style: bold;
+  }
+  

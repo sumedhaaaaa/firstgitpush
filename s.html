@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Link Font Awesome CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- Link your custom CSS file -->
+    <link rel="stylesheet" href="headnavfoot.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="data:,">
+
+    <!-- <link rel="stylesheet" href="headnavfoot.css" /> -->
+  </head>
+  <body>
+    <header>
+      <div class="dropdown2">
+        <a class="btn1">
+          <button class="userbtn" onclick="showModal()">
+            <i class="fa-regular fa-user"></i>
+          </button>
+        </a>
+        <div class="overlay" onclick="hideModal()"></div>
+<div class="modal">
+  <div class="popup">
+    <h1>Log in!</h1>
+    <label for="Mobilenumber">Number</label>
+    <input type="number"  id="Mobilenumber" required>
+    <br><br>
+    <label for="password">password</label>
+    <input type="password" id="password"  required>
+    <br><br>
+    <a href="./signup.html">Sign Up</a>
+    <button type="button" onclick="login()">Submit</button>
+    <script src="./login.js"></script>
+  </div>
+      </div>
+
+      <div class="dropdown">
+        <a class="btn2"  onclick="toggleDropdown()">
+          <button class="navbtn">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </a>
+        <ul class="dropdown-menu" id="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Investors</a></li>
+          <li><a href="#">Connect with us</a></li>
+        </ul>
+      </div>
+      <div id="heading"></div>
+      <p><b>"Congrats, you are on cloud 9!"</b></p>
+    </header>
+    <br /><br /><br />
+    <div class="image-slideshow">
+      <div class="image fade">
+        <img src="./new1.png" alt="Mountain Top" />
+      </div>
+      <div class="image fade">
+        <img src="./new2.png" alt="Palm Trees" />
+      </div>
+    </div>
+    <div class="textbox-container">
+      <input type="text" id="Source" placeholder="Source" />
+      <a><i class="fa-solid fa-arrow-right-arrow-left fa-flip"></i></a>
+      <input type="text" id="Destination" placeholder="Destination" />
+      <input type="date" id="date" />
+      <button
+        class="flight"
+        style="
+          margin-top: 2px;
+          padding-top: 7px;
+          width: 150px;
+          height: 30px;
+          background-color: rgb(44, 44, 176);
+          color: aliceblue;
+          border-radius: 5px;
+        "
+        id="search">
+        Search Flights
+      </button>
+    </div>
+    <br /><br />
+  <div id="fl-container"></div>
+    <div class="slider">
+      <div class="slides">
+        <img src="./a1.jpg" alt="Image 1" />
+      </div>
+      <div class="slides">
+        <img src="./a2.jpg" alt="Image 2" />
+      </div>
+      <div class="slides">
+        <img src="./a3.jpg" alt="Image 3" />
+      </div>
+      <div class="slides">
+        <img src="./a4.jpg" alt="Image 4" />
+      </div>
+      <div class="slides">
+        <img src="./a5.png" alt="Image 5" />
+      </div>
+      <div class="slides">
+        <img src="./a6.png" alt="Image 6" />
+      </div>
+      <div class="slides">
+        <img src="./a7.png" alt="Image 7" />
+      </div>
+      <div class="slides">
+        <img src="./a8.png" alt="Image 8" />
+      </div>
+    </div>
+    <br /><br />
+    <div class="banner">
+      <img
+        src="./Get healthy food right at your seat2.png"
+        alt="banner"
+        class="image-style"
+      />
+    </div>
+    
+    <footer>
+      <p><b>&copy; 2023 The Epic Bytes. All rights reserved.</b></p>
+          
+    </footer>
+    
+    <script src="./script.js"></script>
+
+  </body>
+</html>
